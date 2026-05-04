@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hometown WebWorks</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0f172a;
+      color: #f1f5f9;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #94a3b8;
+    }
+
+    .section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #38bdf8;
+    }
+
+    .price {
+      font-size: 1.3rem;
+      margin: 10px 0;
+      color: #22c55e;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .cta a {
+      background: #38bdf8;
+      color: #0f172a;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #64748b;
+      font-size: 0.9rem;
+    }
+
+    @media (min-width: 768px) {
+      .services {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Hometown WebWorks</h1>
+  <p>Helping Local Businesses Grow with Websites & AI Chatbots</p>
+</header>
+
+<section class="section">
+  <h2>Our Services</h2>
+
+  <div class="services">
+
+    <!-- Chatbot Service -->
+    <div class="card">
+      <h3>AI Chatbots for Real Estate Agents</h3>
+      <p>
+        Turn your website visitors into leads automatically. Our AI chatbots
+        answer client questions, capture contact info, and help you book more showings — 24/7.
+      </p>
+      <ul>
+        <li>Instant responses to buyers & sellers</li>
+        <li>Lead capture & contact collection</li>
+        <li>Custom setup for your listings</li>
+      </ul>
+      <div class="price">$50 - $150/month</div>
+    </div>
+
+    <!-- Website Service -->
+    <div class="card">
+      <h3>Website Creation for Restaurants</h3>
+      <p>
+        Get a modern, professional website that showcases your menu,
+        attracts customers, and increases online orders.
+      </p>
+      <ul>
+        <li>Mobile-friendly design</li>
+        <li>Menu integration</li>
+        <li>Fast & clean layout</li>
+      </ul>
+      <div class="price">Starting at $150 + optional monthly updates</div>
+    </div>
+
+  </div>
+
+  <div class="cta">
+    <p>Ready to grow your business?</p>
+    <a href="kobi.hometownwebworks@gmail.com">Contact Us</a>
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2026 Hometown WebWorks | Greenville, NC</p>
+</footer>
+
+</body>
+</html>
